@@ -1,7 +1,142 @@
-<meta content="winbo's website " property="og:title" />
-<meta content="my web profile, i guess" property="og:description" />
-<meta content="https://winbo-yml-exe.github.io" property="og:url" />
-<meta content="https://raw.githubusercontent.com/winbo-yml-exe/winbo-yml-exe.github.io/main/res/profile.gif" property="og:image" />
-<meta content="#ffff00" data-react-helmet="true" name="theme-color" />
+<!doctype html>
+<html>
+<head>
+    <title>winbo's web profile</title>
+    <meta content="winbo's website" property="og:title" />
+    <meta content="my web profile, I guess" property="og:description" />
+    <meta content="https://winbo-yml-exe.github.io" property="og:url" />
+    <meta content="https://raw.githubusercontent.com/winbo-yml-exe/winbo-yml-exe.github.io/main/res/profile.gif" property="og:image" />
+    <meta content="#ffff00" data-react-helmet="true" name="theme-color" />
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/winbo-yml-exe/winbo-yml-exe.github.io/main/res/profile.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://files.enderman.ch/wallpapers/Foggy%20Evening.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff; /* White text */
+            text-align: center; /* Center align text */
+        }
 
-<p1>The web profile is currently in development.</p1>
+        .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .topbar img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .topbar h1 {
+            font-size: 24px;
+            margin: 0;
+            line-height: 1;
+            color: #333; /* Original text color */
+        }
+
+        .topbar .buttons {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .topbar .button {
+            background-color: #0078d7;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            display: inline-block;
+            line-height: 1;
+        }
+
+        .topbar .button:hover {
+            background-color: #005a9e;
+        }
+
+        @media (max-width: 768px) {
+            .topbar {
+                flex-direction: column;
+                align-items: flex-start;
+                height: auto;
+                padding: 10px;
+            }
+
+            .topbar img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .topbar h1 {
+                margin-bottom: 10px;
+            }
+
+            .topbar .buttons {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center; /* Align text to the center */
+            margin-top: 160px; /* Adjust top margin for content */
+        }
+
+        .content h2 {
+            font-size: 36px; /* Larger font size */
+            margin-bottom: 20px;
+            color: #fff; /* White text */
+        }
+
+        .content p {
+            font-size: 20px; /* Larger font size for paragraphs */
+            line-height: 1.8; /* Increased line height */
+            text-align: left; /* Align paragraphs to the left */
+            margin-bottom: 20px; /* Bottom margin for separation */
+            max-width: 600px; /* Limiting paragraph width for better readability */
+            margin: 0 auto; /* Center align paragraphs */
+            padding: 0 20px; /* Add padding for better readability */
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <img src="https://raw.githubusercontent.com/winbo-yml-exe/winbo-yml-exe.github.io/main/res/profile.gif" alt="Profile Image">
+        <h1>winbo's web profile</h1>
+        <div class="buttons">
+            <a class="button" href="https://amberos.is-a.dev/discord">Discord</a>
+            <a class="button" href="https://github.com/amberOS-win">GitHub</a>
+            <a class="button" href="https://amberos.is-a.dev">amberOS</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <section>
+            <h2>About Me</h2>
+            <p>I am winbo, a developer from Poland. I like to do random stuff with tech. Oh and if you want to destroy school PCs i got you covered. Check out DSPC on my GitHub page. Fun fact: I was known as "winyo" back then but everyone knew i copied it from AveYo so i changed the "y" to a "b".</p>
+        </section>
+    </div>
+</body>
+</html>
