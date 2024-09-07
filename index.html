@@ -1,142 +1,57 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>winbo's web profile</title>
-    <meta content="winbo's website" property="og:title" />
-    <meta content="my web profile, I guess" property="og:description" />
-    <meta content="https://winbo.is-a.dev" property="og:url" />
-    <meta content="https://raw.githubusercontent.com/winbo-yml-exe/winbo-yml-exe.github.io/main/res/profile.gif" property="og:image" />
-    <meta content="#ffff00" data-react-helmet="true" name="theme-color" />
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/winbo-yml-exe/winbo-yml-exe.github.io/main/res/profile.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>winbo's web profile - under update</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-image: url('https://files.enderman.ch/wallpapers/Foggy%20Evening.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #fff; /* White text */
-            text-align: center; /* Center align text */
-        }
-
-        .topbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 60px;
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
             display: flex;
+            justify-content: center;
             align-items: center;
-            padding: 0 20px;
-            box-sizing: border-box;
+            height: 100vh;
+            color: #333;
         }
 
-        .topbar img {
-            height: 40px;
-            margin-right: 10px;
+        .container {
+            text-align: center;
         }
 
-        .topbar h1 {
-            font-size: 24px;
-            margin: 0;
-            line-height: 1;
-            color: #333; /* Original text color */
-        }
-
-        .topbar .buttons {
-            margin-left: auto;
-            display: flex;
-            align-items: center;
-        }
-
-        .topbar .button {
-            background-color: #0078d7;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 10px;
-            margin-left: 10px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-decoration: none;
-            display: inline-block;
-            line-height: 1;
-        }
-
-        .topbar .button:hover {
-            background-color: #005a9e;
-        }
-
-        @media (max-width: 768px) {
-            .topbar {
-                flex-direction: column;
-                align-items: flex-start;
-                height: auto;
-                padding: 10px;
-            }
-
-            .topbar img {
-                margin-right: 0;
-                margin-bottom: 10px;
-            }
-
-            .topbar h1 {
-                margin-bottom: 10px;
-            }
-
-            .topbar .buttons {
-                margin-left: 0;
-                margin-top: 10px;
-            }
-        }
-
-        .content {
-            padding: 50px 20px;
-            text-align: center; /* Align text to the center */
-            margin-top: 160px; /* Adjust top margin for content */
-        }
-
-        .content h2 {
-            font-size: 36px; /* Larger font size */
+        h1 {
+            font-size: 3em;
             margin-bottom: 20px;
-            color: #fff; /* White text */
         }
 
-        .content p {
-            font-size: 20px; /* Larger font size for paragraphs */
-            line-height: 1.8; /* Increased line height */
-            text-align: left; /* Align paragraphs to the left */
-            margin-bottom: 20px; /* Bottom margin for separation */
-            max-width: 600px; /* Limiting paragraph width for better readability */
-            margin: 0 auto; /* Center align paragraphs */
-            padding: 0 20px; /* Add padding for better readability */
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
     </style>
 </head>
 <body>
-    <div class="topbar">
-        <img src="https://raw.githubusercontent.com/winbo-yml-exe/winbo-yml-exe.github.io/main/res/profile.gif" alt="Profile Image">
-        <h1>winbo's web profile</h1>
-        <div class="buttons">
-            <a class="button" href="https://dsc.gg/winbo">Discord</a>
-            <a class="button" href="https://github.com/winbo-yml-exe">GitHub</a>
-            <a class="button" href="https://luminaos.is-a.dev">LuminaOS</a>
-        </div>
-    </div>
-
-    <div class="content">
-        <section>
-            <h2>About Me</h2>
-            <p>Hello. I am just a random dev on the internet that does random things with tech from Poland. While you're here, go check out my projects, I guess.</p>
-        </section>
+    <div class="container">
+        <h1>New site coming</h1>
+        <p>I am making a new website. If you want to access the old one, click on this<a href="https://winbo.is-a.dev/old/v1/">link.</p>
+        <div class="loader"></div>
     </div>
 </body>
 </html>
