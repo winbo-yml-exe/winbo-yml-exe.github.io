@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Name</title>
+    <title>Modding Redmi 13C - Start</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,31 +58,43 @@
 </head>
 <body>
     <header>
-        <h1>Project Name</h1>
+        <h1>Modding Redmi 13C - Start</h1>
     </header>
     <div class="container">
         <h2>Introduction</h2>
-        <p>Briefly describe what the project is about and its key features. Explain why it's useful and what problems it solves.</p>
+        <p>Welcome to the guide on modding the Redmi 13C. This document provides instructions and tips for modifying your device to enhance its functionality and performance.</p>
 
-        <h2>Installation</h2>
+        <h2>Getting Started</h2>
+        <p>Before you begin, ensure you have the following prerequisites:</p>
+        <ul>
+            <li>A compatible version of the Redmi 13C.</li>
+            <li>Basic knowledge of Android modding.</li>
+            <li>Necessary tools and software.</li>
+        </ul>
+
+        <h2>Guide Sections</h2>
         <ol>
-            <li><strong>Download</strong>: Get the latest version from the <a href="#">releases page</a>.</li>
-            <li><strong>Install</strong>: Run the following command:
-                <pre><code>pip install project-name</code></pre>
-            </li>
-            <li><strong>Setup</strong>: Configure the project by editing the <code>config.yaml</code> file.</li>
+            <li><a href="#section1">Rooting the Device</a></li>
+            <li><a href="#section2">Installing Custom Recovery</a></li>
+            <li><a href="#section3">Flashing Custom ROMs</a></li>
+            <li><a href="#section4">Additional Tweaks</a></li>
         </ol>
 
-        <h2>Usage</h2>
-        <p>Here's how to use the project:</p>
-        <ol>
-            <li><strong>Basic Command</strong>:
-                <pre><code>project-name --help</code></pre>
-            </li>
-        </ol>
-    </div>
-    <div class="footer">
-        <p>&copy; 2024 Project Name. All rights reserved.</p>
+        <h2 id="section1">Rooting the Device</h2>
+        <p>Detailed steps on how to root your Redmi 13C, including necessary tools and precautions.</p>
+        <pre><code>fastboot flash recovery recovery.img</code></pre>
+
+        <h2 id="section2">Installing Custom Recovery</h2>
+        <p>Instructions for installing a custom recovery like TWRP to facilitate further modifications.</p>
+        <pre><code>fastboot boot recovery.img</code></pre>
+
+        <h2 id="section3">Flashing Custom ROMs</h2>
+        <p>How to flash custom ROMs to change the software experience on your device.</p>
+        <pre><code>adb sideload custom-rom.zip</code></pre>
+
+        <h2 id="section4">Additional Tweaks</h2>
+        <p>Additional tweaks and tips for optimizing and customizing your device.</p>
+
     </div>
 </body>
 </html>
