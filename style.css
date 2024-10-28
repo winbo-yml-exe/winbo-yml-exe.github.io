@@ -8,5 +8,6 @@ body {
   background-image: url(https://files.enderman.ch/wallpapers/Reflection.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
