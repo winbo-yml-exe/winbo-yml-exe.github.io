@@ -12,6 +12,8 @@ body {
   min-height: 100vh;
 }
 
-a {
-  color: #ffffff
+a, a:visited, a:hover, a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: inherit;
 }
