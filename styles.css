@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+h1, p {
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+    
+}
+
+a {
+    font-family: 'Segoe UI';
+    color: red;
+}
