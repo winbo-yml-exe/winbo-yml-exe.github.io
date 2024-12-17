@@ -13,3 +13,7 @@ a {
     font-family: 'Segoe UI';
     color: red;
 }
+
+img {
+    border-radius: 5px;
+}
