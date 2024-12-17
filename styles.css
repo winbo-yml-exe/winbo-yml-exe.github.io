@@ -4,13 +4,13 @@ body {
 
 h1, p {
     color: white;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', 'Arial';
     text-align: center;
     
 }
 
 a {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', 'Arial';
     color: red;
 }
 
