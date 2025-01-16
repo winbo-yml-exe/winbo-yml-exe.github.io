@@ -8,12 +8,12 @@ body {
 
 h1, p {
     color: white;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', 'Noto Sans';
     text-align: center;
 }
 
 a {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', 'Noto Sans';
     color: gold;
 }
 
