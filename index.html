@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>komaru's web profile</title>
+    <link
+      rel="icon"
+      type="image/gif"
+      href="https://avatars.githubusercontent.com/u/170887716?v=4"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .fade {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+      .fade.visible {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body class="overflow-x-hidden">
+    <div
+      class="relative min-h-screen bg-cover bg-center"
+      style="background-image: url('https://files.enderman.ch/wallpapers/Cloudy%20Mountain.jpg'); background-attachment: fixed;"
+    >
+      <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-60"></div>
+
+      <nav
+        class="relative z-20 backdrop-blur-md bg-black/30 fixed top-0 left-0 right-0 px-8 py-4"
+      >
+        <div class="mx-auto flex justify-between items-center">
+            <a href="#" class="flex items-center text-white text-2xl font-bold">
+                <img src="https://avatars.githubusercontent.com/u/170887716?v=4" alt="Logo" class="h-12 inline-block mr-4" />
+                komaru
+              </a>
+                        <div class="hidden md:flex space-x-10">
+            <a
+              href="#about"
+              class="text-gray-300 hover:text-white transition duration-300"
+              >About</a
+            >
+            <a
+              href="#socials"
+              class="text-gray-300 hover:text-white transition duration-300"
+              >Socials</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-300 hover:text-white transition duration-300"
+              >Contact</a
+            >
+          </div>
+          <button
+            id="menu-toggle"
+            class="md:hidden text-gray-300 hover:text-white focus:outline-none"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div id="mobile-menu" class="md:hidden mt-4 space-y-2 px-8 hidden">
+          <a
+            href="#about"
+            class="block text-gray-300 hover:text-white transition duration-300"
+            >About</a
+          >
+          <a
+            href="#socials"
+            class="block text-gray-300 hover:text-white transition duration-300"
+            >Socials</a
+          >
+          <a
+            href="#contact"
+            class="block text-gray-300 hover:text-white transition duration-300"
+            >Contact</a
+          >
+        </div>
+      </nav>
+
+      <div
+        id="hero"
+        class="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center fade"
+      >
+        <img
+          src="https://avatars.githubusercontent.com/u/170887716?v=4"
+          alt="Avatar"
+          class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white mb-6 shadow-md transition-transform duration-300 hover:scale-105"
+        />
+        <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-4">
+          Hello, world!
+        </h1>
+        <p class="text-lg md:text-xl text-gray-200 mb-6 max-w-2xl">
+          Hello. I'm komaru, a dev on the internet from Poland that does random
+          things with tech when I can.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-6" id="socials">
+          <a
+            href="https://discord.gg/cAddu9DnU5"
+            class="bg-blue-800 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow transition duration-300"
+            >My Discord Server</a
+          >
+          <a
+            href="https://github.com/komaru-meow"
+            class="bg-gray-800 hover:bg-gray-600 text-white font-semibold py-3 px-8 rounded-full shadow transition duration-300"
+            >GitHub Account</a
+          >
+        </div>
+      </div>
+
+      <section
+        id="about"
+        class="relative z-10 py-16 px-6 text-center fade"
+      >
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-4xl font-bold text-white mb-6">About Me</h2>
+          <p class="text-lg text-gray-200">
+                I don't really know what to put here, I'll just say I'm a guy that loves to sit and stare at my monitor all day and write code. 
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="relative z-10 py-16 px-6 text-center fade"
+      >
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-4xl font-bold text-white mb-6">Get in Touch</h2>
+          <p class="text-lg text-gray-200 mb-6">
+            Have questions or just want to chat? Feel free to reach out to me via Email or Discord!
+          </p>
+          <a
+            href="mailto:winbo.yml@proton.me"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow transition duration-300"
+            >Email</a
+          >
+          <br><br><br>
+          <a
+            href="mailto:https://discord.com/users/1305241305806409860"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow transition duration-300"
+            >Discord (PS: I block retards.)</a
+          >
+        </div>
+      </section>
+
+    </div>
+
+    <script>
+      window.addEventListener('load', () => {
+        document.querySelectorAll('.fade').forEach((el) => el.classList.add('visible'));
+      });
+
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
